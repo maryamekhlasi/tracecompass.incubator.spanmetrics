@@ -1,7 +1,7 @@
 # Trace collection for SpanMetric patch
 
 HotROD (Rides on Demand) is a demo application that consists of several microservices and illustrates the use of the OpenTracing API.  
-It can be run standalone, but requires Jaeger backend to view the traces.
+It can be run standalone, but requires Jaeger's backend to view the traces.
 For more information take a look at [OpenTracing for a HotROD ride](https://medium.com/opentracing/take-opentracing-for-a-hotrod-ride-f6e3141f7941).
 
 ## Prerequisites
@@ -29,8 +29,8 @@ git clone git@github.com:jaegertracing/jaeger.git jaeger
 cd jaeger
 go run ./examples/hotrod/main.go all
 ```
-While you are in the jaeger folder from the previous step
-Get the latest version of the source code of the jaeger in the example source folder of the HotROD application [READ MORE](https://github.com/jaegertracing/jaeger/tree/main/examples/hotrod)
+While you are in the jaeger folder from the previous step,
+get the latest version of the source code of the jaeger in the example source folder of the HotROD application [READ MORE](https://github.com/jaegertracing/jaeger/tree/main/examples/hotrod)
 ```
 cd examples/hotrod
 git clone https://github.com/jaegertracing/jaeger-client-go.git
